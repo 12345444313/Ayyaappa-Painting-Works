@@ -23,7 +23,7 @@
         description: 'A signature complete villa painting project showcasing detailed preparation, premium materials, and a flawless long-lasting finish.',
         category: 'Residential',
         location: 'Sample City',
-        image_url: 'assets/images/featured.jpg'
+        image_url: 'assets/images/premium_villa_painting.jpeg'
     };
 
     const PLACEHOLDER = 'assets/images/placeholder-project.svg';
