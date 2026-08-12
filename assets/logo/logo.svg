@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+    <defs>
+        <linearGradient id="lg" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0%" stop-color="#5A1F1F"/>
+            <stop offset="100%" stop-color="#401414"/>
+        </linearGradient>
+    </defs>
+    <rect width="200" height="200" rx="30" fill="url(#lg)"/>
+    <g transform="translate(100, 100)">
+        <path d="M 0 -60 L 30 -20 L 10 -20 L 10 50 L -10 50 L -10 -20 L -30 -20 Z" fill="#B08D57"/>
+        <circle r="6" cy="-30" fill="#5A1F1F"/>
+    </g>
+    <text x="100" y="175" font-family="serif" font-size="12" fill="#B08D57" text-anchor="middle" letter-spacing="3">PAINTING</text>
+</svg>

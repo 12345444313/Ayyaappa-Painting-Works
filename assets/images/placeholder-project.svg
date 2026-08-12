@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" preserveAspectRatio="xMidYMid slice">
+    <defs>
+        <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0%" stop-color="#5A1F1F"/>
+            <stop offset="50%" stop-color="#B08D57"/>
+            <stop offset="100%" stop-color="#2C2420"/>
+        </linearGradient>
+    </defs>
+    <rect width="1200" height="800" fill="url(#g1)"/>
+    <g opacity="0.15" stroke="#F7F1E3" stroke-width="2" fill="none">
+        <path d="M 100 400 Q 600 100 1100 400"/>
+        <path d="M 100 500 Q 600 200 1100 500"/>
+        <path d="M 100 600 Q 600 300 1100 600"/>
+    </g>
+    <g transform="translate(600, 400)">
+        <circle r="80" fill="none" stroke="#F7F1E3" stroke-width="2" opacity="0.6"/>
+        <circle r="40" fill="#F7F1E3" opacity="0.3"/>
+    </g>
+    <text x="600" y="760" font-family="serif" font-size="22" fill="#F7F1E3" text-anchor="middle" letter-spacing="6" opacity="0.7">PROJECT IMAGE</text>
+</svg>

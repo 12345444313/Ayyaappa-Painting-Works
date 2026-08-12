@@ -1,0 +1,382 @@
+/* =============================================
+   Ayyaappa Painting Works - Responsive Styles
+   Mobile-first overrides
+   ============================================= */
+
+/* ====== Tablet (≤ 1024px) ====== */
+@media (max-width: 1024px) {
+    :root {
+        --section-padding: 5rem 0;
+    }
+
+    .about-grid {
+        gap: 3rem;
+    }
+
+    .featured-card {
+        grid-template-columns: 1fr;
+    }
+
+    .featured-image {
+        min-height: 320px;
+    }
+
+    .featured-info {
+        padding: 2.5rem;
+    }
+
+    .contact-grid {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+}
+
+/* ====== Tablet small (≤ 900px) ====== */
+@media (max-width: 900px) {
+    .nav-menu {
+        position: fixed;
+        top: 0;
+        right: -100%;
+        width: 85%;
+        max-width: 360px;
+        height: 100vh;
+        background: var(--color-white);
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: stretch;
+        padding: 5rem 2rem 2rem;
+        box-shadow: -10px 0 30px rgba(0, 0, 0, 0.1);
+        transition: right 0.35s ease;
+        z-index: 1000;
+        overflow-y: auto;
+    }
+
+    .nav-menu.active {
+        right: 0;
+    }
+
+    .nav-list {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 0;
+        margin-bottom: 2rem;
+    }
+
+    .nav-link {
+        display: block;
+        padding: 1rem 0;
+        font-size: 1rem;
+        border-bottom: 1px solid var(--color-border);
+    }
+
+    .nav-link::after { display: none; }
+
+    .nav-cta {
+        margin-top: 1rem;
+        width: 100%;
+    }
+
+    .nav-toggle {
+        display: flex;
+    }
+
+    .about-grid {
+        grid-template-columns: 1fr;
+        gap: 2.5rem;
+    }
+
+    .about-photo {
+        max-width: 360px;
+        margin: 0 auto;
+    }
+
+    .about-stats {
+        padding: 1.5rem;
+    }
+
+    .stat-number {
+        font-size: 1.65rem;
+    }
+
+    .gallery-arrow {
+        width: 40px;
+        height: 40px;
+        font-size: 1.25rem;
+    }
+
+    .gallery-arrow-left { left: 4px; }
+    .gallery-arrow-right { right: 4px; }
+}
+
+/* ====== Mobile (≤ 640px) ====== */
+@media (max-width: 640px) {
+    :root {
+        --section-padding: 4rem 0;
+    }
+
+    .container {
+        padding: 0 1.25rem;
+    }
+
+    .section-head {
+        margin-bottom: 2.5rem;
+    }
+
+    /* Navbar */
+    .nav-container {
+        padding: 0.85rem 1.25rem;
+    }
+
+    .logo-primary {
+        font-size: 1rem;
+    }
+
+    .logo-secondary {
+        font-size: 0.65rem;
+    }
+
+    .logo-mark svg {
+        width: 30px;
+        height: 30px;
+    }
+
+    /* Hero */
+    .hero {
+        min-height: 90vh;
+        padding: 7rem 0 3rem;
+    }
+
+    .hero-eyebrow {
+        font-size: 0.75rem;
+        letter-spacing: 0.3em;
+        margin-bottom: 1rem;
+    }
+
+    .hero-actions {
+        flex-direction: column;
+        align-items: stretch;
+        width: 100%;
+    }
+
+    .hero-actions .btn {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .hero-scroll-hint {
+        display: none;
+    }
+
+    /* About */
+    .about-lead {
+        font-size: 1rem;
+        padding-left: 1rem;
+    }
+
+    .about-stats {
+        grid-template-columns: 1fr;
+        gap: 1.25rem;
+        text-align: center;
+    }
+
+    .about-stats .stat {
+        padding: 0.5rem 0;
+        border-bottom: 1px solid var(--color-border);
+    }
+
+    .about-stats .stat:last-child {
+        border-bottom: none;
+    }
+
+    /* Featured */
+    .featured-info {
+        padding: 2rem 1.5rem;
+    }
+
+    .featured-title {
+        font-size: 1.5rem;
+    }
+
+    /* Gallery */
+    .gallery-card {
+        flex: 0 0 280px;
+        height: 340px;
+    }
+
+    .skeleton-card {
+        flex: 0 0 280px;
+        height: 340px;
+    }
+
+    .gallery-arrow {
+        display: none;
+    }
+
+    /* Services */
+    .service-card {
+        padding: 2rem 1.5rem;
+    }
+
+    /* Contact */
+    .contact-info {
+        padding: 1.75rem 1.5rem;
+    }
+
+    .contact-item {
+        gap: 0.85rem;
+    }
+
+    .contact-icon {
+        width: 42px;
+        height: 42px;
+        font-size: 1.15rem;
+    }
+
+    .contact-actions .btn {
+        padding: 0.95rem 1.5rem;
+    }
+
+    /* Footer */
+    .footer-links {
+        flex-direction: column;
+        gap: 0.75rem;
+    }
+
+    /* WhatsApp Float */
+    .whatsapp-float {
+        width: 54px;
+        height: 54px;
+        bottom: 18px;
+        right: 18px;
+    }
+
+    .whatsapp-float svg {
+        width: 24px;
+        height: 24px;
+    }
+
+    /* Lightbox */
+    .lightbox {
+        padding: 1rem;
+    }
+
+    .lightbox-close,
+    .lightbox-prev,
+    .lightbox-next {
+        width: 40px;
+        height: 40px;
+        font-size: 1.2rem;
+    }
+
+    .lightbox-close {
+        top: 12px;
+        right: 12px;
+    }
+
+    .lightbox-prev { left: 8px; }
+    .lightbox-next { right: 8px; }
+
+    .lightbox-content img {
+        max-height: 60vh;
+    }
+
+    /* Modal */
+    .modal-content {
+        padding: 2rem 1.5rem;
+    }
+
+    .modal-content h2 {
+        font-size: 1.4rem;
+    }
+}
+
+/* ====== Small phones (≤ 380px) ====== */
+@media (max-width: 380px) {
+    .container {
+        padding: 0 1rem;
+    }
+
+    .hero-title {
+        font-size: 2rem;
+    }
+
+    .hero-subtitle {
+        font-size: 0.95rem;
+    }
+
+    .section-title {
+        font-size: 1.6rem;
+    }
+
+    .gallery-card {
+        flex: 0 0 250px;
+        height: 300px;
+    }
+
+    .skeleton-card {
+        flex: 0 0 250px;
+        height: 300px;
+    }
+
+    .service-card h3 {
+        font-size: 1.15rem;
+    }
+
+    .btn {
+        padding: 0.75rem 1.25rem;
+        font-size: 0.9rem;
+    }
+
+    .stat-number {
+        font-size: 1.4rem;
+    }
+
+    .stat-label {
+        font-size: 0.7rem;
+    }
+}
+
+/* ====== Reduce motion ====== */
+@media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
+
+    .reveal {
+        opacity: 1;
+        transform: none;
+    }
+
+    .hero-scroll-hint {
+        display: none;
+    }
+}
+
+/* ====== Large screens (≥ 1440px) ====== */
+@media (min-width: 1440px) {
+    :root {
+        --section-padding: 7rem 0;
+    }
+}
+
+/* ====== Print ====== */
+@media print {
+    .navbar, .whatsapp-float, .hero-scroll-hint, .lightbox, .modal,
+    .gallery-arrow, .contact-actions, .footer-links a {
+        display: none !important;
+    }
+
+    body {
+        color: #000;
+        background: #fff;
+    }
+
+    .section {
+        padding: 2rem 0;
+    }
+}
