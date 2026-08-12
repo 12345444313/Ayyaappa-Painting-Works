@@ -7,19 +7,19 @@ const BUSINESS_CONFIG = {
     // ----- Business identity -----
     name: "Ayyaappa Painting Works",
     tagline: "Quality • Trust • Craftsmanship",
-    contractorName: "CONTRACTOR NAME",          // TODO: Replace with contractor's name
+    contractorName: "Mojjada Ramarao",          // TODO: Replace with contractor's name
 
     // ----- Contact details -----
     // IMPORTANT: Use international format WITHOUT '+' for wa.me and tel:
     // Example: "919876543210" for India
-    phone: "919876543210",                        // TODO: Replace with real phone (no '+')
-    phoneDisplay: "+91 98765 43210",              // TODO: Display version
-    whatsapp: "919876543210",                     // TODO: Replace with WhatsApp number (no '+')
-    email: "",                                    // TODO: Optional - add email
+    phone: "919346461820",                        // TODO: Replace with real phone (no '+')
+    phoneDisplay: "+91 93464 61820",              // TODO: Display version
+    whatsapp: "919346461820",                     // TODO: Replace with WhatsApp number (no '+')
+    email: "mojjadaramarao@gmail.com",                                    // TODO: Optional - add email
 
     // ----- Location & hours -----
-    location: "Your City, State",                 // TODO: Replace
-    workingHours: "Mon - Sat, 9:00 AM - 7:00 PM", // TODO: Replace
+    location: "Hyderabad, Telangana",                 // TODO: Replace
+    workingHours: "Mon - Sat, 9:00 AM - 10:00 PM", // TODO: Replace
     workingAreas: "Your City & Surrounding Areas",
 
     // ----- About stats (placeholders) -----
@@ -27,7 +27,7 @@ const BUSINESS_CONFIG = {
     projectsCompleted: "100+",                    // TODO: e.g. "250+"
 
     // ----- WhatsApp pre-filled message -----
-    whatsappMessage: "Hello, I am interested in your painting services. I would like to discuss my project."
+    whatsappMessage: "Hello! I would like to inquire about your painting services. Please provide more details."
 };
 
 // ----- Supabase configuration -----

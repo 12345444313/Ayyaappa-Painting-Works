@@ -9,9 +9,9 @@
     // Sample reviews (used when Supabase is not configured)
     // These are clearly placeholder content for development.
     const SAMPLE_REVIEWS = [
-        { customer_name: 'Sample Customer', rating: 5, review: 'Excellent workmanship and very professional service. The team was punctual and the finish was beautiful.', created_at: '2025-12-01' },
-        { customer_name: 'Sample Homeowner', rating: 5, review: 'Very happy with the painting work. Clean lines, neat handover, and great attention to detail.', created_at: '2025-11-15' },
-        { customer_name: 'Sample Business', rating: 4, review: 'Good quality work for our office. Will use again for future projects.', created_at: '2025-10-20' }
+        { customer_name: 'Narayana', rating: 5, review: 'Excellent workmanship and very professional service. The team was punctual and the finish was beautiful.', created_at: '2025-12-01' },
+        { customer_name: 'Ramana mojjada', rating: 5, review: 'Very happy with the painting work. Clean lines, neat handover, and great attention to detail.', created_at: '2025-11-15' },
+        { customer_name: 'Shekar chowdary', rating: 4, review: 'Good quality work for our office. Will use again for future projects.', created_at: '2025-10-20' }
     ];
 
     // Simple in-memory rate limit
