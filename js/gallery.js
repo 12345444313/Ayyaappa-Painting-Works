@@ -8,14 +8,13 @@
 
     // Sample data used when Supabase is not configured
     const SAMPLE_PROJECTS = [
-        { id: 1, title: 'Modern Living Room', description: 'Premium interior finish with soft ivory tones and elegant accent walls.', category: 'Interior', image_url: 'assets/images/work-1.jpg', featured: false },
-        { id: 2, title: 'Heritage Home Exterior', description: 'Durable exterior paint protecting against weather for years to come.', category: 'Exterior', image_url: 'assets/images/work-2.jpg', featured: false },
-        { id: 3, title: 'Decorative Texture Wall', description: 'Custom decorative texture creating a luxurious feature wall.', category: 'Texture', image_url: 'assets/images/work-3.jpg', featured: false },
-        { id: 4, title: 'Boutique Office', description: 'Professional commercial painting for a clean, modern workspace.', category: 'Commercial', image_url: 'assets/images/work-4.jpg', featured: false },
-        { id: 5, title: 'Villa Renovation', description: 'Complete repaint and finish for a fully renovated family villa.', category: 'Renovation', image_url: 'assets/images/work-5.jpg', featured: false },
-        { id: 6, title: 'Cozy Bedroom Suite', description: 'Soft pastel palette for a calm and welcoming bedroom retreat.', category: 'Residential', image_url: 'assets/images/work-6.jpg', featured: false },
-        { id: 7, title: 'Restaurant Interior', description: 'Warm, inviting color scheme for a high-traffic dining space.', category: 'Commercial', image_url: 'assets/images/work-7.jpg', featured: false },
-        { id: 8, title: 'Apartment Refresh', description: 'Full refresh of a 3BHK apartment with crisp white ceilings.', category: 'Residential', image_url: 'assets/images/work-8.jpg', featured: false }
+        { id: 1, title: 'Modern Living Room', description: 'Premium interior finish with soft ivory tones and elegant accent walls.', category: 'Interior', image_url: 'assets/images/image1.jpg', featured: false },
+        { id: 2, title: 'Heritage Home Exterior', description: 'Durable exterior paint protecting against weather for years to come.', category: 'Exterior', image_url: 'assets/images/image2.jpg', featured: false },
+        { id: 3, title: 'Decorative Texture Wall', description: 'Custom decorative texture creating a luxurious feature wall.', category: 'Texture', image_url: 'assets/images/image3.jpg', featured: false },
+        { id: 4, title: 'Boutique Office', description: 'Professional commercial painting for a clean, modern workspace.', category: 'Commercial', image_url: 'assets/images/image4.jpg', featured: false },
+        { id: 5, title: 'Villa Renovation', description: 'Complete repaint and finish for a fully renovated family villa.', category: 'Renovation', image_url: 'assets/images/image5.jpg', featured: false },
+        { id: 6, title: 'Cozy Bedroom Suite', description: 'Soft pastel palette for a calm and welcoming bedroom retreat.', category: 'Residential', image_url: 'assets/images/image6.jpg', featured: false },
+        { id: 8, title: 'Apartment Refresh', description: 'Full refresh of a 3BHK apartment with crisp white ceilings.', category: 'Residential', image_url: 'assets/images/image7.jpg', featured: false }
     ];
 
     const SAMPLE_FEATURED = {
