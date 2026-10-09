@@ -56,7 +56,7 @@
         }
 
         // Maps link
-        setHref('contact-directions', window.buildMapsURL());
+        setHref('contact-directions', 'https://maps.app.goo.gl/6TVBtrtCnYA9NYKD6');
 
         // About stats
         const expEl = document.querySelector('[data-stat="experience"]');
